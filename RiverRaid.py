@@ -540,27 +540,27 @@ def paint():
 def textos():
     # medidor
     font = pygame.font.SysFont("arial", 33)
-    txt = font.render("E        " + chr(189) + "      F", 0, (0, 0, 0))
-    win.blit(txt, (334, 524))
+    txt = font.render("E        " + chr(189) + "       F", 0, (0, 0, 0))
+    win.blit(txt, (330, 528))
     pygame.draw.rect(win, cor[1], [335 + gaz_level, 529, 10, 27])
 
     # Vidas
     if vidas:
         font = pygame.font.SysFont("cooper Black", 34)
         txt = font.render(str(vidas), 0, (232, 232, 74))
-        win.blit(txt, (290, 554))
+        win.blit(txt, (290, 535))
 
     # Pontos
     if pontos:
         font = pygame.font.SysFont("cooper Black", 34)
         txt = font.render(str(pontos), 0, (232, 232, 74))
-        win.blit(txt, (450, 474))
+        win.blit(txt, (450, 486))
 
     # Texto
     if not game:
         font = pygame.font.SysFont("arial Black", 30)
-        txt = font.render("Python", 0, (232, 232, 74))
-        win.blit(txt, (364, 552))
+        txt = font.render("F2 START - by Python", 0, (232, 232, 74))
+        win.blit(txt, (320, 565))
 
 
 def control():
@@ -618,14 +618,3 @@ restart()
 while not sair:
     paint()
     sair = opned()
-
-
-
-
-
-
-
-
-
-
-
