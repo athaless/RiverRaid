@@ -7,9 +7,9 @@ It was implemented as homework/study for Phyton and PyGame, just for fun.
 
 <table width:100%>
   <tr>
-    <td><img src="./_/RiverRaid_img.jpg"></td>
     <td><img src="./_/RiverRaid_img1.jpg"></td>
     <td><img src="./_/RiverRaid_img2.jpg"></td>
     <td><img src="./_/RiverRaid_img3.jpg"></td>
+    <td><img src="./_/RiverRaid_img4.jpg"></td>
   </tr>
 </table>
